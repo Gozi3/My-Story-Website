@@ -1,0 +1,162 @@
+#image img {
+    height:7.5em;
+    width:14em;
+    position:fixed;
+    border-radius: 1em;
+    -moz-webkit-animation:myfirst 2.5s;
+    /* Chrome, Safari, Opera */
+    animation:myfirst 2.5s;
+    -moz-webkit-animation-delay:0s;
+    /* Safari and Chrome */
+    animation-delay:0s;
+    -moz-webkit-animation-iteration-count:1;
+    /*Safari and Chrome*/
+    animation-iteration-count:1;
+    -moz-webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+/* Chrome, Safari, Opera */
+ @-webkit-keyframes myfirst {
+    from {
+        -moz-webkit-transform:rotateY(0deg);
+        box-shadow: 8px 6px -4px white;
+        box-align: center;
+        border-radius:10px;
+    }
+    to {
+        -moz-webkit-transform:rotateY(360deg);
+    }
+}
+/* Standard syntax */
+ @keyframes myfirst {
+    from {
+        transform:rotateY(0deg);
+        box-shadow: 0px 8px 6px -4px white;
+        box-align: center;
+        border-radius:10px;
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+}
+img {
+    height:10em;
+    width:20em;
+    border-radius: 1em;
+}
+#image {
+    clear:left;
+    float:left;
+}
+body {
+    background-image: url(pap.jpg);
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+    background-position:top;
+    background-attachment: fixed;
+}
+#title {
+    clear:both;
+    padding: -5px 50px 50px 50px;
+    position: inherit;
+    margin-top: -5px;
+    font-family:Tahoma;
+    font-weight: bold;
+    text-align:center;
+    text-shadow: 5px 5px 10px black;
+}
+#title h1 {
+    font-size: 48px;
+    color: lightgray;
+}
+#title h2 {
+    font-size: 36px;
+    color: gray;
+}
+.left {
+    clear:left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin:auto;
+    float:left;
+    height:18em;
+    width:11em;
+    border-radius: 50px;
+    position: fixed;
+    font-family:Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:lightgray;
+    text-align: center;
+    text-shadow: 5px 2px 7px black;
+    bottom:5em;
+    background-image: -webkit-radial-gradient(circle, #E3CBB2, #A35200, #140A00);
+    background-image: -ms-radial-gradient(circle, #E3CBB2, #A35200, #140A00);
+    background-image: -webkit-gradient(circle, #E3CBB2, #A35200, #140A00);
+    background-image: -o-radial-gradient(circle, #E3CBB2, #A35200, #140A00);
+    background-image: -moz-radial-gradient(circle, #E3CBB2, #A35200, #140A00);
+    background-image: radial-gradient(circle, #E3CBB2, #A35200, #140A00);
+}
+a {
+    text-decoration:none;
+}
+a:visited {
+    color:lightgray;
+}
+a:link {
+    color:lightgray;
+}
+.left p:hover {
+    box-shadow: 0px 8px 6px -4px white;
+    box-align: center;
+    border-radius:10px;
+}
+.right {
+    clear:right;
+    position:relative;
+    float:left;
+    color: black;
+    width: 65em;
+    margin-top: 50px;
+    margin-left:15em;
+    margin-bottom:10px;
+    height:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding: 10px;
+    border-radius: 20px;
+    background-image:-webkit-linear-gradient(top left, black 0%, #A35200 5%, #E3CBB2, #A35200 95%, black 100%);
+    background-image:-ms-linear-gradient(top left, black 0%, #A35200 5%, #E3CBB2, #A35200 95%, black 100%);
+    background-image:-webkit-gradient(top left, black 0%, #A35200 5%, #E3CBB2, #A35200 95%, black 100%);
+    background-image:-o-linear-gradient(top left, black 0%, #A35200 5%, #E3CBB2, #A35200 95%, black 100%);
+    background-image:-moz-linear-gradient(top left, black 0%, #A35200 5%, #E3CBB2, #A35200 95%, black 100%);
+    background-image:linear-gradient(top left, black 0%, #A35200 5%, #E3CBB2, #A35200 95%, black 100%);
+}
+.right:hover {
+    box-shadow: 7px 7px 7px -3px white;
+}
+h1 {
+    color:darkgray;
+    font-family:Tahoma;
+    font-weight: bold;
+    text-align:center;
+    text-shadow: 5px 5px 10px black;
+}
+h2 {
+    color:gray;
+    font-family:Tahoma;
+    font-weight: bold;
+    text-align:center;
+    text-shadow: 5px 5px 10px black;
+}
+footer {
+    color:white;
+    position: relative;
+    height: 10em;
+    width: 77em;
+    clear: both;
+    float:left;
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
