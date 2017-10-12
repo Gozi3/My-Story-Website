@@ -1,6 +1,6 @@
 # My Story Website
 
-A brief display of my **_HTML_** and **_CSS_** coding skills
+A Basic **_Story Website_**
 
 #### Description:
 This is a website based on the story "**_The Ultimate Galactic Race_**" by **Godstime Osarobo** (_at aged 10_).  
